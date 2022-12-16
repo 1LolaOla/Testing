@@ -5,6 +5,7 @@
  * read_cmd - reads valid output from getline
  * Return: string
  */
+
 char *read_cmd()
 {
 	char *buf = NULL;
@@ -23,6 +24,7 @@ char *read_cmd()
  * _getline - reads line from STDIN
  * Return: string
  */
+
 char *_getline(void)
 {
 	int RL_BUFF_SIZE = 14096, buffsize = RL_BUFF_SIZE, position = 0, r;
@@ -66,6 +68,7 @@ char *_getline(void)
  *
  * Return: pointer to new block
  */
+
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	unsigned int i = 0;
